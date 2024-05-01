@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url("images/f.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
 
 .box {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +33,7 @@
     gap: 20px;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: transparent;
 
 
 }
@@ -39,7 +48,7 @@
     font-size: 2rem;
     font-family: sans-serif;
     font-weight: bolder;
-    color: black;
+    color: darkcyan;
     text-shadow: 2px 2px silver;
 
 
@@ -53,7 +62,7 @@
     justify-content: center;
     gap: 20px;
     background-color: black;
-  padding: 10px;
+    padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.705) 0px 3px 5px 0px;
 
 }
@@ -64,11 +73,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     color: white;
     font-weight: bolder;
     padding: 5px;
-  
+
 }
 
 .sec {
@@ -77,11 +86,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: white;
     font-weight: bold;
     padding: 5px;
-   
+
 }
 
 .ms {
@@ -90,11 +99,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-weight: 700;
     padding: 5px;
-  
+
 }
 
 .btn {
@@ -106,6 +115,14 @@
 
 }
 
+.cl {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
 .btn1 {
     width: 25%;
     height: 30px;
@@ -114,7 +131,7 @@
     justify-content: center;
     font-size: 1rem;
     padding: 3px;
-    border: 2px solid black;
+    border: none;
     color: black;
     background-color: white;
     cursor: pointer;
@@ -124,4 +141,21 @@
 .mn {
     font-size: 1rem;
     margin-top: 15px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+.blue{
+    background-color:darkblue;
+    color: white;
+    font-weight: bolder;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
 }

@@ -50,7 +50,7 @@ function starter() {
         
 
 
-            setTimeout("starter()", 10)
+            setTimeout("starter()",10)
         mili.innerHTML = miliSec;
         min.innerHTML = mint;
         sec.innerHTML = second;
