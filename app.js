@@ -47,7 +47,7 @@ function starter() {
             mint++
             second = 0;
         }
-        
+       
 
 
             setTimeout("starter()",10)
