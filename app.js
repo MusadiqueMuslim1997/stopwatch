@@ -47,16 +47,16 @@ function starter() {
             mint++
             second = 0;
         }
-       let getmint = mint;
-       let getsec = second;
-       if(second < 10){
-        getsec = "0" + second;
-       }
-       if(mint < 10){
-        getmint = "0" + mint
-       }
+        let getmint = mint;
+        let getsec = second;
+        if (second < 10) {
+            getsec = "0" + second;
+        }
+        if (mint < 10) {
+            getmint = "0" + mint
+        }
 
-            setTimeout("starter()",10)
+        setTimeout("starter()", 10)
         mili.innerHTML = miliSec;
         min.innerHTML = getmint;
         sec.innerHTML = getsec;
@@ -64,4 +64,3 @@ function starter() {
     }
 
 }
- 
