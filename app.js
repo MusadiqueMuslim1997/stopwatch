@@ -13,9 +13,24 @@ let timer = false;
 
 
 function start() {
+    if(timer){
+        clearInterval( starter());
+        timer = false;
+        event.target.innerText = "START";
+        document.getElementById("btns").style.backgroundColor = "#0d6db7"
+        document.getElementById("btns").style.color = "white"
+       
+       
+    }
+    else{
     timer = true;
     starter()
-
+    event.target.innerText = "STOP";
+    document.getElementById("btns").style.backgroundColor = "white"
+    document.getElementById("btns").style.color = "#0d6db7"
+    
+    
+}
 }
 
 

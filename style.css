@@ -111,7 +111,7 @@
 
 
 .btn1 {
-    width: 25%;
+    width: 45%;
     height: 30px;
     display: flex;
     align-items: center;
@@ -131,16 +131,16 @@
 }
 
 .green {
-    background-color: white;
-    color: #0d6db7;
+    background-color: #0d6db7;
+    color: white;
     border: 1px solid #0d6db7;
     font-weight: bolder;
 }
 
-.green:focus {
+/* .green:focus {
     background-color: #0d6db7;
     color: white;
-}
+} */
 
 .blue {
     background-color: white;
